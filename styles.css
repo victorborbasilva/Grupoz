@@ -1,5 +1,11 @@
-h1 {    color: red;
+@import url("styles/header.css");
+
+:root {--cor-de-fundo:#d6b8b0;
+        --branco:#FFFFFF;
 }
-cabecalho {
-    background-color: palevioletred;
+
+body {
+    background-color: var(--cor-de-fundo);
+    align-items: center;
 }
+
